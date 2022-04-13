@@ -1,0 +1,299 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*基本レアウト　ここから↓*/
+@import url("common.css");
+body{
+	background-color:#FFFFCC;
+	color:#502D26;
+	}
+.denwa{
+	color: #ffffff;
+	position: relative;
+	right: 410px;
+	float:right;
+	top: 20px;
+}
+
+header{
+	background-color: #DC9623;
+	padding-top: 1px;
+	text-align: center;
+	padding-left: 100px
+}
+
+
+.top_dayo{
+	margin: 50px 190px;
+}
+
+a{
+	text-decoration: none;
+}
+nav,#breadcrumb,#main,.concept_box,.news{
+	margin: 0 auto 0 auto;
+	width:950px;
+}
+nav ul{
+	padding-left: 150px;
+	padding-bottom: 50px;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav ul li{
+	float: left;
+	color: #ffffff;
+}
+
+#nav_logo{
+	width:130px;
+}
+
+#nav_home,#nav_home,#nav_menu {
+	width: 100px;
+}
+#nav_concept{
+	width: 140px;
+}
+#nav_osusume{
+	width:150px;
+}
+
+#nav_contact{
+	width: 150px;
+}
+
+main_nav{
+	text-align: center;
+}
+breadcrumb{
+	float: left;
+}
+
+
+.news_sub{
+	list-style-type: none;
+	width: 700px;
+	padding-left: 130px;
+}
+
+.news ul li{
+	padding: 10px 0;
+	border-bottom: 1px dotted 
+}
+
+.news_title{
+	background-image: url("../images/NEWS_logo.gif");
+	text-align: center;
+	padding: 20px 0;
+	background-repeat: no-repeat,no-repeat;
+	background-position: left 270px center;
+	padding-left: 110px;
+}
+.menu_title{
+	background-image: url("../images/menu_logo.gif");
+	margin:  0px 290px;
+	text-align: center;
+	padding: 20px 0;
+	padding-left: 90px;
+	background-repeat: no-repeat,no-repeat;
+	background-position: left center;
+}
+
+.concept_title{
+	background-image: url("../images/concept_logo.gif");
+	background-size: 90px auto;
+	text-align: center;
+	background-position: left 150px center;
+	padding: 20px 0;
+	background-repeat: no-repeat,no-repeat;
+}
+
+.osusume_title{
+	background-image: url("../images/OSUSUME_logo.gif");
+	text-align: center;
+	background-position: left 220px center;
+	padding: 20px 0;
+	background-repeat: no-repeat,no-repeat;
+	backgroung-position: left center;
+}
+
+.contact_title{
+	background-image: url("../images/contact_logo.gif");
+	background-size: 90px auto;
+	text-align: center;
+	padding: 30px 0;
+	width: 400px;
+	margin-left: 320px;
+	background-repeat: no-repeat,no-repeat;
+	backgroung-position: left center;
+}
+
+ul{
+	list-style-type: square;
+}
+
+footer{
+	background: #3B1F1F;
+	text-align: center;
+	padding: 26px 0;
+	color: #ffffff
+}
+
+iframe{
+	text-align: center;
+}
+
+.info{	
+	display: flex;
+	justify-content: space-between;
+	margin: 50px auto 0 auto;
+	width: 950px;
+}
+
+.sub-title{
+	border-bottom: 2px #502D26 solid;
+}
+
+#sns{
+	padding: 4% 0;
+}
+
+#sns .wrapper{
+	display: flex;
+	justify-content: space-between;
+	width: 800px;
+	margin: 0 auto 0 auto;
+}
+#sns .sub-title{
+	margin-bottom: 30px;
+}
+.sns_box{
+	width: 30%;
+}
+
+/*基本レアウト　ここまで↑*/
+
+/*メニューレイアウトここから↓*/
+.menu_top{
+	display: grid;
+	grid-template-columns: 330px 280px;
+	padding-left: 140px;
+	padding-top: 10px;
+}
+
+.top_item:hover{ 
+	opacity:0.6;
+}
+
+.menu_namae{
+	margin-top: 40px;
+	text-align: center;
+}
+
+.menu_main{
+	display: grid;
+	grid-template-columns: 310px 400px;
+	padding-left: 160px;
+	margin-top: 40px;
+	height: 700px;
+}
+
+/*メニューレイアウトここまで↑*/
+
+/*商品紹介レイアウトここから↓*/
+.syouhin{
+	text-align: center;
+	margin: 0 auto 0 auto;
+	margin-bottom: 50px;
+	width: 1000px;
+}
+
+.syouhin_gazo{
+	margin: 0 auto 0 auto;
+	width: 700px;
+	border-bottom: 5px dotted
+}
+
+.syouhin_text{
+	margin: 40px auto 0 auto;
+	width: 740px;
+	font-size: 30px
+}
+/*商品紹介レイアウトここまで↑*/
+
+/*コンセプトレイアウトここから↓*/
+.image_right{
+	float: right;
+	margin-left: 25px;
+}
+.image_left{
+	float: left;
+	margin-right: 25px;
+}
+
+.concept_box{
+	padding-bottom: 150px;
+	padding-top: 20px;
+}
+
+.kodawari-title-left,.kodawari-title-right{
+	border-bottom: 1px #3B0F10 solid;
+}
+.kodawari-title-right{
+	text-align: right;
+}
+.big_red{
+	font-size: 50px;
+	color:red;
+}
+/*コンセプトレイアウトここまで↑*/
+
+/*オススメレイアウトここから↓*/
+.osusume_box{
+position: relative;
+bottom:140px;
+height: 350px;
+text-align: center;
+}
+
+.main_number{
+position: relative;
+bottom: 300px;
+font-size: 40px;
+background-image: url("../images/osusume_background_09.gif");
+background-repeat: no-repeat,no-repeat;
+background-size: 200px;
+background-position: left 338px center;
+}
+.second_rank{
+	position: relative;
+	bottom: 240px;
+	left: 250px;
+
+}
+.sard_rank{
+	position: relative;
+	top: 281px;
+	right: 265px;
+}
+.zako{
+	position: relative;
+	bottom: 200px;
+	font-size: 30px;
+}
+
+/*オススメレイアウトここまで↑*/
+
+/*お問い合わせレイアウトここから↓*/
+.nyuuryoku_main{
+	margin-left: 400px;
+	text-align: left;
+	padding-bottom: 40px
+}
+
+.nyuuryoku{
+
+}
+/*お問い合わせレイアウトここまで↑*/
